@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 
 #rndDataX = np.random.randint(100)
 
-rndDataX = np.random.random(500) * 100
-rndDataY = np.random.random(500) * 100
+# (real numbers simulate price)
+rndDataX = np.random.random(500) * 120
+rndDataY = np.random.random(500) * 120
 
 #print(rndDataX)
 color = "#0DABCD"
