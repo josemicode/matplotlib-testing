@@ -17,7 +17,7 @@ tickFormatY = [f"{x}k €" for x in incomeTicks]
 plt.plot(years, income)
 
 # Title and axis labels
-plt.title("Company's Yearly Income", fontsize=22)
+plt.title("Company's Yearly Income", fontsize=22, fontname="Arial")
 plt.xlabel("Years")
 plt.ylabel("EUR")
 
