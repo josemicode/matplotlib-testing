@@ -26,6 +26,7 @@ axis[1, 1].set_title("cumulative")
 # This will affect the whole figure
 
 fig.suptitle("4 Graphs", fontsize=16)
+plt.tight_layout()
 
 # Instead of just showing the graph, the program will automatically save it as an image wherever this file is executed
 
